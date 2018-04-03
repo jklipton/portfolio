@@ -1,0 +1,30 @@
+html, body{
+    margin: 0;
+    padding: 0;
+    background-color: #294AAD;
+}
+
+body{
+    width: 100vw;
+    height: 100%;
+
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+}
+
+body img{
+    height: 100vh;
+    min-width: 800px;
+    box-shadow: 20px 20px 10px #2942A4; 
+    display: inline-block;
+}
+
+@media only screen and (min-width: 1200px){
+    body img{
+        height: auto;
+        width: 100vw;
+    }
+    
+}
